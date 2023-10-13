@@ -1,2 +1,2 @@
 # how-many-days-have-you-lived
-Practice exercises - Date Now - JS
+Practice exercises - new Date - JS
