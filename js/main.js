@@ -15,6 +15,8 @@ const todayInTime = (today.getTime()); //milliseconds from 1-1-70 until today
 discoverBtn.addEventListener('click',(event)=>{
     event.preventDefault();
     const birthdateInTime = birthdate.valueAsNumber;//milliseconds 
-    messageUser.innerHTML= (`hi, you have lived for ${(todayInTime - birthdateInTime)/1000} milliseconds`); //milliseconds from 1-1-70 until input date
+    const hoursYouLived = ((todayInTime - birthdateInTime)/1000)/3600;
+    const integerHours = Math.trunc(hoursYouLived)
+    messageUser.innerHTML= (`hi, you have lived for ${integerHours} hours`); //hours from 1-1-70 until input date
     });
     // today minus input date
