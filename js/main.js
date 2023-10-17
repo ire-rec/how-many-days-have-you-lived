@@ -1,10 +1,10 @@
 'use script'
 
 // GLOBAL VAR
-const age = document.querySelector('.js_age');
 const discoverBtn = document.querySelector('.js_discover');
 const messageUser = document.querySelector('.js_message');
 const birthdate = document.querySelector('.js_birthDate');
+
 
 //------------- FUNCTIONS------------------//
 const today = new Date();
@@ -16,7 +16,17 @@ discoverBtn.addEventListener('click',(event)=>{
     event.preventDefault();
     const birthdateInTime = birthdate.valueAsNumber;//milliseconds 
     const hoursYouLived = ((todayInTime - birthdateInTime)/1000)/3600;
-    const integerHours = Math.trunc(hoursYouLived)
-    messageUser.innerHTML= (`hi, you have lived for ${integerHours} hours`); //hours from 1-1-70 until input date
-    });
+    const integerHours = Math.trunc(hoursYouLived);
+
+  if (integerHours) { messageUser.innerHTML = (`hi, you have lived for ${integerHours} hours`)}
+   else {  messageUser.innerHTML = ('Debe indicar su fecha de nacimiento')
+
+   } //hours from 1-1-70 until input date 
+});
+    
+//  
+    
+
     // today minus input date
+ 
+   
