@@ -18,15 +18,13 @@ discoverBtn.addEventListener('click',(event)=>{
     const hoursYouLived = ((todayInTime - birthdateInTime)/1000)/3600;
     const integerHours = Math.trunc(hoursYouLived);
 
-  if (integerHours) { messageUser.innerHTML = (`hi, you have lived for ${integerHours} hours`)}
-   else {  messageUser.innerHTML = ('Debe indicar su fecha de nacimiento')
-
-   } //hours from 1-1-70 until input date 
+    if (integerHours) {
+        messageUser.innerHTML = (`hi, you have lived for ${integerHours} hours`)}
+    else {
+        messageUser.innerHTML = ('You must indicate your date of birth')} //hours from 1-1-70 until input date 
 });
-    
-//  
-    
+       
 
-    // today minus input date
+// total formula = today - input date
  
    
