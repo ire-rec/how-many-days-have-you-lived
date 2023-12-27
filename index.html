@@ -3,34 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/main.css">
-    <title>Hours calculator</title>
+    <title>Discover how many hours have you lived</title>
 </head>
 
 <header>
-    <h1>Discover how many hours have you lived</h1>
+    <h1 class ="h1">Discover how many hours have you lived</h1>
 </header>
-<body>
-    <form> 
-        <div> 
-            <label> Your birthdate
+
+<body class = "body">
+    <main>
+    <form class="form"> 
+        <div class ="dateOfBirthInput"> 
+            <label> Date of birth
             <input 
-            class="js_birthDate"
+            class="js_dateOfBirth"
             type="date" 
             name="date"
             required/></label>
             
         </div> 
         
-        <div>
+        <div class="submitInput">
             <input 
-            class="js_discover days" 
+            class="js_discover submitBtn" 
             type="submit" 
             value="Discover the hours!"/>
         </div>
 
         <p class="js_message"></p>
-
-    <script src="./js/main.js"></script>
+    </main>
+<script src="./js/main.js"></script>
 </body>
 </html>

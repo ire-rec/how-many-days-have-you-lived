@@ -1,3 +1,7 @@
-.days{
+h1{
+    font-size: 28px;
+}
+
+.submitBtn{
     background-color: lightblue;
 }
