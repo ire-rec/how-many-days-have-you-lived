@@ -2,6 +2,14 @@
     height: 100vh;
     background-color: chocolate;
 }
+.header{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
 .video{
     width: 100vw;
     height: 100vh;
@@ -13,17 +21,11 @@
     bottom: 0;
     z-index: -1;
 }
-.header{
-    background-color: beige;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    height: 250px;
-}
+
 .h1{
     font-size: 45px;
     font-family:'Raleway', sans-serif;
+    color: beige;
 }
 .main{
     display: flex;
@@ -61,6 +63,7 @@
 }
 .message{
     font-size: 25px;
+    color: beige;
 }
 .resetBtn{
     margin-top: 15px;
