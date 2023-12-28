@@ -7,32 +7,28 @@
     <link rel="stylesheet" href="./css/main.css">
     <title>Discover how many hours have you lived</title>
 </head>
+<body class="body">
+    <header class="header">
+        <h1 class ="h1">Discover how many hours have you lived</h1>
+    </header>
+    <main class="main">
+        <form class="form"> 
+            <div class ="div_date"> 
+                <label class="label"> Date of birth</label>
+                <input 
+                class="js_dateOfBirth date"
+                type="date" 
+                name="date"
+                required/>
+            </div> 
+            <div class="div_submit">
+                <input 
+                class="js_discover submitBtn" 
+                type="submit" 
+                value="Discover the hours!"/>
+            </div>
 
-<header>
-    <h1 class ="h1">Discover how many hours have you lived</h1>
-</header>
-
-<body class = "body">
-    <main>
-    <form class="form"> 
-        <div class ="dateOfBirthInput"> 
-            <label> Date of birth
-            <input 
-            class="js_dateOfBirth"
-            type="date" 
-            name="date"
-            required/></label>
-            
-        </div> 
-        
-        <div class="submitInput">
-            <input 
-            class="js_discover submitBtn" 
-            type="submit" 
-            value="Discover the hours!"/>
-        </div>
-
-        <p class="js_message"></p>
+        <p class="js_message message"></p>
     </main>
 <script src="./js/main.js"></script>
 </body>
