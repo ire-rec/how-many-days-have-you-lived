@@ -1,6 +1,6 @@
 .body{
     height: 100vh;
-    background-color: chocolate;
+  
 }
 .header{
 
@@ -24,8 +24,9 @@
 
 .h1{
     font-size: 45px;
-    font-family:'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;
     color: beige;
+   
 }
 .main{
     display: flex;
@@ -42,6 +43,8 @@
     margin-top: 25px;
     display: flex;
     flex-direction: column;
+    color: white;
+    font-weight: bold;
 }
 
 .div_submit{
@@ -60,13 +63,16 @@
     font-size: 20px;
     justify-content: center;
     font-family:'Raleway', sans-serif;
+    
 }
 .message{
-    font-size: 25px;
+    font-size: 20px;
     color: beige;
+    font-family:'Raleway', sans-serif;
+    margin-top: 10px;
 }
 .resetBtn{
-    margin-top: 15px;
+    margin-top: 20px;
     background-color: lightblue;
     font-size: 15px;
     font-family:'Raleway', sans-serif;
