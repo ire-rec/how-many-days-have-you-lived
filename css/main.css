@@ -2,7 +2,17 @@
     height: 100vh;
     background-color: chocolate;
 }
-
+.video{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
 .header{
     background-color: beige;
     display: flex;
@@ -13,7 +23,7 @@
 }
 .h1{
     font-size: 45px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Raleway', sans-serif;
 }
 .main{
     display: flex;
@@ -22,7 +32,7 @@
     align-items: center;
 }
 .label{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Raleway', sans-serif;
     font-size: 25px;
 }
 
@@ -41,14 +51,22 @@
     margin-top: 15px;
     background-color: lightblue;
     font-size: 15px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Raleway', sans-serif;
 }
 .date{
     margin-top: 15px;
     font-size: 20px;
     justify-content: center;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+    font-family:'Raleway', sans-serif;
 }
 .message{
     font-size: 25px;
 }
+.resetBtn{
+    margin-top: 15px;
+    background-color: lightblue;
+    font-size: 15px;
+    font-family:'Raleway', sans-serif;
+}
+
+

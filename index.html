@@ -5,9 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     <title>Discover how many hours have you lived</title>
 </head>
 <body class="body">
+    <video src="./css/nube.mov" class="video" autoplay loop></video>
+
     <header class="header">
         <h1 class ="h1">Discover how many hours have you lived</h1>
     </header>
@@ -27,15 +32,16 @@
                 type="submit" 
                 value="Discover the hours!"/>
             </div>
-            <div>
+            <div class="div_reset">
                 <input 
-                class="js_reset reset"
+                class="js_reset resetBtn"
                 type = "button"
                 value = "Reset"/>
             </div>
         </form> 
         <p class="js_message message"></p>
     </main>
+
 <script src="./js/main.js"></script>
 </body>
 </html>
