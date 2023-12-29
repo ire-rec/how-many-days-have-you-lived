@@ -1,6 +1,6 @@
 .body{
     height: 100vh;
-  
+  background-color: green;
 }
 .header{
     display: flex;
@@ -56,12 +56,12 @@
     font-size: 15px;
     font-family:'Raleway', sans-serif;
 }
-.date{
+/* .date{
     margin-top: 15px;
     font-size: 20px;
     justify-content: center;
     font-family:'Raleway', sans-serif;
-}
+} */
 .message{
     font-size: 20px;
     color: beige;
