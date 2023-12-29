@@ -21,7 +21,7 @@ discoverBtn.addEventListener("click", (event) => {
   const numberFormat = new Intl.NumberFormat("es-ES");
   const totalHours = numberFormat.format(integerHours);
 
-  if (totalHours) {
+  if (integerHours) {
     messageUser.innerHTML = `hi, you have lived for ${totalHours} hours`;
   } else {
     messageUser.innerHTML = "You must indicate your date of birth";
