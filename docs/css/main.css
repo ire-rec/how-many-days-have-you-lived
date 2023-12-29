@@ -3,7 +3,6 @@
   
 }
 .header{
-
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -26,8 +25,8 @@
     font-size: 45px;
     font-family: 'Raleway', sans-serif;
     color: beige;
-   
 }
+
 .main{
     display: flex;
     flex-direction: column;
@@ -37,6 +36,7 @@
 .label{
     font-family:'Raleway', sans-serif;
     font-size: 25px;
+    color: beige;
 }
 
 .div_date{
@@ -52,8 +52,7 @@
     justify-content: center;
 }
 .submitBtn{
-    margin-top: 15px;
-    background-color: lightblue;
+    margin-top: 20px;
     font-size: 15px;
     font-family:'Raleway', sans-serif;
 }
@@ -70,10 +69,14 @@
     margin-top: 10px;
 }
 .resetBtn{
-    margin-top: 20px;
-    background-color: lightblue;
+    margin-top: 15px;
     font-size: 15px;
     font-family:'Raleway', sans-serif;
+}
+.credit{
+    font-family:'Raleway', sans-serif;
+    color: lightgray;
+    font-size: 15px;
 }
 
 
