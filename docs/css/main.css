@@ -37,14 +37,14 @@
     align-items: center;
     background-color: darkseagreen;
     height: 50%;
+   
 }
 
 .main .div_date{
     display: flex;
     flex-direction: column;
     padding-top: 20px;
-    appearance: none;
-    -webkit-appearance: none;
+   
     
 }
 
@@ -59,6 +59,8 @@
     font-size: 20px;
     justify-content: center;
     font-family:'Raleway', sans-serif;
+    appearance: none;
+    -webkit-appearance: none;
 }
 
 .main .div_submit{
