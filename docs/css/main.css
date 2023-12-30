@@ -1,8 +1,9 @@
 .body{
     height: 100vh;
-    background-image:url(/docs/globo.jpeg);
+    background-image:url(./globo.jpeg);
     background-size:cover;
     background-position:bottom;
+    
 }
 
 
@@ -11,8 +12,6 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 25%;
-    
     height: 30%;
 }
 
@@ -98,7 +97,25 @@
     background-size: cover;
     background-position: initial;
 }
+
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    height: 30%;
 }
+
+.header .h1{
+    font-size: 60px;
+    font-family: 'Raleway', sans-serif;
+    color: beige;
+    padding-left: 20px;
+}
+
+}
+
 
 
 
