@@ -15,14 +15,14 @@ const todayInTime = today.getTime(); //milliseconds from 1-1-70 until today
 discoverBtn.addEventListener("click", (event) => {
   event.preventDefault();
   const birthdateInTime = dateOfBirth.valueAsNumber; //milliseconds
-  const hoursYouLived = (todayInTime - birthdateInTime) / 1000 / 3600;
+  const hoursYouLived = (todayInTime - birthdateInTime) / 1000 / 3600 / 24;
   const integerHours = Math.trunc(hoursYouLived);
 
   const numberFormat = new Intl.NumberFormat("es-ES");
   const totalHours = numberFormat.format(integerHours);
 
   if (integerHours) {
-    messageUser.innerHTML = `hi, you have lived for ${totalHours} hours`;
+    messageUser.innerHTML = `hi, you have lived for ${totalHours} days`;
   } else {
     messageUser.innerHTML = "You must indicate your date of birth";
   } //hours from 1-1-70 until input date
