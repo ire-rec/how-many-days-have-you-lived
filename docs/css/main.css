@@ -36,19 +36,27 @@
     flex-direction: column;
     align-items: center;
     background-color: darkseagreen;
-    height: 40%;
+    height: 50%;
 }
 
 .main .div_date{
     display: flex;
     flex-direction: column;
- padding-top: 20px;
+    padding-top: 20px;
 }
 
 .main .div_date .label{
     font-family:'Raleway', sans-serif;
     font-size: 25px;
     color: beige;
+}
+
+.main .div_date .date{ 
+    margin-top: 15px;
+    font-size: 20px;
+    justify-content: center;
+  
+
 }
 
 .main .div_submit{
@@ -77,21 +85,20 @@
 .footer{
     background-color:lightcoral;
     height: 20%;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
 }
 
 .footer .credit{
     font-family:'Raleway', sans-serif;
     color: lightgray;
     font-size: 18px;
-    padding-left: 20px;
-    padding-top: 20px;
 }
-/* .date{ 
-    margin-top: 15px;
-    font-size: 20px;
-    justify-content: center;
-    font-family:'Raleway', sans-serif;
-} */
+
+@media all and (min-width: 480px){
+
+}
 
 
 
