@@ -1,7 +1,8 @@
 .body{
     height: 100vh;
-  background-color: green;
+    background-color: green;
 }
+
 .header{
     display: flex;
     flex-direction: row;
@@ -9,6 +10,13 @@
     align-items: center;
     height: 250px;
 }
+
+.header .h1{
+    font-size: 45px;
+    font-family: 'Raleway', sans-serif;
+    color: beige;
+}
+
 .video{
     width: 100vw;
     height: 100vh;
@@ -21,23 +29,31 @@
     z-index: -1;
 }
 
-.h1{
-    font-size: 45px;
-    font-family: 'Raleway', sans-serif;
-    color: beige;
-}
-
 .main{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.label{
-    font-family:'Raleway', sans-serif;
-    font-size: 25px;
+
+.main .message{
+    font-size: 20px;
     color: beige;
+    font-family:'Raleway', sans-serif;
+    margin-top: 10px;
 }
+
+.main .credit{
+    font-family:'Raleway', sans-serif;
+    color: lightgray;
+    font-size: 15px;
+}
+
+.main .resetBtn{
+    margin-top: 15px;
+    font-size: 15px;
+    font-family:'Raleway', sans-serif;
+} 
 
 .div_date{
     margin-top: 25px;
@@ -46,12 +62,18 @@
     font-weight: bold;
 }
 
+.div_date .label{
+    font-family:'Raleway', sans-serif;
+    font-size: 25px;
+    color: beige;
+}
+
 .div_submit{
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-.submitBtn{
+.div_submit .submitBtn{
     margin-top: 20px;
     font-size: 15px;
     font-family:'Raleway', sans-serif;
@@ -62,21 +84,8 @@
     justify-content: center;
     font-family:'Raleway', sans-serif;
 } */
-.message{
-    font-size: 20px;
-    color: beige;
-    font-family:'Raleway', sans-serif;
-    margin-top: 10px;
-}
-.resetBtn{
-    margin-top: 15px;
-    font-size: 15px;
-    font-family:'Raleway', sans-serif;
-}
-.credit{
-    font-family:'Raleway', sans-serif;
-    color: lightgray;
-    font-size: 15px;
-}
+
+
+
 
 
