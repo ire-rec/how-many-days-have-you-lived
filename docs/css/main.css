@@ -16,6 +16,7 @@
     font-size: 45px;
     font-family: 'Raleway', sans-serif;
     color: beige;
+    padding-left: 20px;
 }
 
 .video{
@@ -33,23 +34,32 @@
 .main{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     background-color: darkseagreen;
-    height: 50%;
+    height: 40%;
 }
 
 .main .div_date{
-    margin-top: 25px;
     display: flex;
     flex-direction: column;
-    font-weight: bold;
+ padding-top: 20px;
 }
 
 .main .div_date .label{
     font-family:'Raleway', sans-serif;
     font-size: 25px;
     color: beige;
+}
+
+.main .div_submit{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.main .div_submit .submitBtn{
+    margin-top: 20px;
+    font-size: 15px;
+    font-family:'Raleway', sans-serif;
 }
 
 .main .resetBtn{
@@ -63,26 +73,18 @@
     font-family:'Raleway', sans-serif;
     margin-top: 10px;
 }
-.main .div_submit{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.main .div_submit .submitBtn{
-    margin-top: 20px;
-    font-size: 15px;
-    font-family:'Raleway', sans-serif;
-}
 
 .footer{
-    background-color: dodgerblue;
+    background-color:lightcoral;
     height: 20%;
 }
 
 .footer .credit{
     font-family:'Raleway', sans-serif;
     color: lightgray;
-    font-size: 15px;
+    font-size: 18px;
+    padding-left: 20px;
+    padding-top: 20px;
 }
 /* .date{ 
     margin-top: 15px;
