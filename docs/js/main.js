@@ -23,8 +23,10 @@ discoverBtn.addEventListener("click", (event) => {
 
   if (integerHours) {
     messageUser.innerHTML = `hi, you have lived for ${totalHours} days`;
+    messageUser.classList.add("msg_span");
   } else {
     messageUser.innerHTML = "You must indicate your date of birth";
+    messageUser.classList.add("msg_span");
   } //hours from 1-1-70 until input date
 });
 
@@ -33,6 +35,7 @@ discoverBtn.addEventListener("click", (event) => {
 function reset() {
   form.reset();
   messageUser.innerHTML = "";
+  messageUser.classList.remove("msg_span");
 }
 
 resetBtn.addEventListener("click", (event) => {

@@ -3,9 +3,7 @@
     background-image:url(./globo.jpeg);
     background-size:cover;
     background-position:bottom;
-    
 }
-
 
 .header{
     display: flex;
@@ -16,10 +14,13 @@
 }
 
 .header .h1{
-    font-size: 45px;
+    font-size: 50px;
+    background-color:crimson;
     font-family: 'Raleway', sans-serif;
-    color: beige;
+    color:antiquewhite;
     padding-left: 20px;
+    height: 120px;
+    padding-top: 10px;
 }
 
 .main{
@@ -27,26 +28,23 @@
     flex-direction: column;
     align-items: center;
     height: 50%;
-   
 }
 
 .main .div_date{
     display: flex;
     flex-direction: column;
-    padding-top: 20px;
-   
-    
+    padding-top: 20px;   
 }
 
 .main .div_date .label{
     font-family:'Raleway', sans-serif;
-    font-size: 25px;
-  color:white;
+    font-size: 22px;
+    color:antiquewhite;
 }
 
 .main .div_date .date{ 
     margin-top: 15px;
-    font-size: 20px;
+    font-size: 15px;
     justify-content: center;
     font-family:'Raleway', sans-serif;
 }
@@ -67,25 +65,32 @@
     font-size: 15px;
     font-family:'Raleway', sans-serif;
 }
-.main .message{
-    font-size: 20px;
-    color: beige;
+.msg_span{
+    background-color: crimson;
+    font-size: 18px;
     font-family:'Raleway', sans-serif;
-    margin-top: 10px;
+    margin-top: 70px;
+    height: 35px;
+    width: 320px;
+    color:beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+   
 }
 
+
 .footer{
-   
     height: 20%;
-    display: flex;
-    align-items: center;
-    padding-left: 20px;
 }
 
 .footer .credit{
     font-family:'Raleway', sans-serif;
-    color: lightgray;
+    color:dimgray;
     font-size: 18px;
+    padding-left: 20px;
+    padding-top: 80px;
 }
 
 @media all and (min-width: 480px){
@@ -98,7 +103,6 @@
     background-position: initial;
 }
 
-
 .header{
     display: flex;
     flex-direction: row;
@@ -109,11 +113,30 @@
 
 .header .h1{
     font-size: 60px;
+    background-color:crimson;
     font-family: 'Raleway', sans-serif;
-    color: beige;
+    color:antiquewhite;
     padding-left: 20px;
+    margin-right: 680px;
+    height: 150px;
+    
+    
 }
 
+.msg_span{
+    background-color: crimson;
+    font-size: 18px;
+    font-family:'Raleway', sans-serif;
+    margin-top: 20px;
+    height: 35px;
+    width: 320px;
+    color:beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+   
+}
 }
 
 
