@@ -1,4 +1,4 @@
-"use script";
+"use strict";
 
 // GLOBAL VAR
 const discoverBtn = document.querySelector(".js_discover");
