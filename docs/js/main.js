@@ -11,16 +11,12 @@ const resetBtn = document.querySelector(".js_reset");
 const today = new Date();
 const todayInTime = today.getTime(); //milliseconds from 1-1-70 until today
 
-//BUTTONS
-discoverBtn.addEventListener("click", (event) => {
-  event.preventDefault();
+const numbers = () => {
   const birthdateInTime = dateOfBirth.valueAsNumber; //milliseconds
   const hoursYouLived = (todayInTime - birthdateInTime) / 1000 / 3600 / 24;
-  const integerHours = Math.trunc(hoursYouLived);
-
+  const integerHours = Math.trunc(hoursYouLived); //Math.trunc return número entero
   const numberFormat = new Intl.NumberFormat("es-ES");
   const totalHours = numberFormat.format(integerHours);
-
   if (integerHours) {
     messageUser.innerHTML = `hi, you have lived for ${totalHours} days`;
     messageUser.classList.add("msg_span");
@@ -28,15 +24,20 @@ discoverBtn.addEventListener("click", (event) => {
     messageUser.innerHTML = "You must indicate your date of birth";
     messageUser.classList.add("msg_span");
   } //hours from 1-1-70 until input date
-});
+  // total formula = today - input date
+};
 
-// total formula = today - input date
-
-function reset() {
+const reset = () => {
   form.reset();
   messageUser.innerHTML = "";
   messageUser.classList.remove("msg_span");
-}
+};
+
+//EVENTS
+discoverBtn.addEventListener("click", (event) => {
+  event.preventDefault();
+  numbers();
+});
 
 resetBtn.addEventListener("click", (event) => {
   event.preventDefault();
